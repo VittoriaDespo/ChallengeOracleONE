@@ -181,6 +181,19 @@ main {
  
  .footer {
  	text-align: center;
- 	margin: 1em; 	
+ 	margin: 1em; 
 }
 
+ul{
+	margin-top: 10px;
+}
+
+li {
+ 	display: inline;
+}
+
+
+.link {
+	width: 40px;
+}
+ 
