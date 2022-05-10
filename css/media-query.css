@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px){
+git @media screen and (max-width: 480px){
 
 	body {
 		align-items: center;
@@ -18,8 +18,8 @@
 	.area-principal {
 		height: 500px;
 		margin-left: 20px;
+		height: 400px;
 	}
-
 
 	#texto {
 		background: linear-gradient(178deg, #ebf0f2, #b3c9d2);
@@ -29,7 +29,7 @@
 	}
 
 	.aviso {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.div-buttons {
@@ -72,6 +72,8 @@
  	#mensagem-erro {
  		font-size: 18px;
  	}
+
+
 
 
 }
