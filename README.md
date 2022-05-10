@@ -27,4 +27,8 @@ As 🔐 **"chaves"** de criptografia usadas foram:
 #### Extras:
 - Um botão que copie o texto criptografado/descriptografado para a área de transferência.
 
+#### Link 
+[Codificador/Decodificador de textos](https://vittoriadespo.github.io/ChallengeOracleONE/) 
+
+
 
