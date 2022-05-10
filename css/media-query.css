@@ -11,7 +11,6 @@
 		font-size: 30px;
 	}
 
-<<<<<<< HEAD
 	form {
 		width: 100%;
 	}
@@ -19,13 +18,8 @@
 	.area-principal {
 		height: 500px;
 		margin-left: 20px;
-
-=======
-	.area-texto {
-		height: 400px;
-		
->>>>>>> 5f26c12e3f3df980d9000aa2574ab41b7c2ca6cc
 	}
+
 
 	#texto {
 		background: linear-gradient(178deg, #ebf0f2, #b3c9d2);
