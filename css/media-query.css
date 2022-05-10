@@ -3,20 +3,32 @@
 	body {
 		align-items: center;
 		min-height: 500px;
-		width: 520px;
+		width: 100%;
 		
 	}
 
 	.titulo-principal {
-		font-size: 28px;
+		font-size: 30px;
 	}
 
-	.area-texto {
-		height: 400px;
+	form {
+		width: 100%;
+	}
+
+	.area-principal {
+		height: 500px;
+		margin-left: 20px;
+
 	}
 
 	#texto {
 		background: linear-gradient(178deg, #ebf0f2, #b3c9d2);
+		font-size: 25px;
+		margin: 0 1em;
+		width: 100%;
+	}
+
+	.aviso {
 		font-size: 20px;
 	}
 
@@ -25,14 +37,14 @@
 	}
 
 	.button {
-		width: 50%;
-		font-size: 15px;
+		width: 60%;
+		font-size: 20px;
 	}
 
 	.display {
 		min-width: 90%;
 		margin: 1em;
-		max-height: 300px;
+		max-height: 400px;
 	}
 
 	#ponto-interrogacao {
@@ -40,21 +52,25 @@
 	}
 
  	#paragrafo-display{
- 		font-size: 15px;
+ 		font-size: 20px;
  	}
 
  	.msg {
- 		font-size: 20px;
+ 		font-size: 25px;
  	}
 
  	#texto-criptografado{
  		background: linear-gradient(178deg, #9fbbc6, #86aab8);
- 		font-size: 20px;
+ 		font-size: 25px;
  		height: 300px;
  	}
 
  	#button-copia {
- 		font-size: 15px;
+ 		font-size: 20px;
+ 	}
+
+ 	#mensagem-erro {
+ 		font-size: 18px;
  	}
 
 
