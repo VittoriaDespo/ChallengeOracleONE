@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width">
+		<title>Codificador/Decodificador de texto </title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media-query.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+				
+			<img src="img/logo.png" alt = "logo MD" class="logo">
+			
+			<h2 class="titulo-principal">Codificador e Decodificador de texto</h2>
+			
+		</header>
+
+		<main>
+			<form id="form">
+				<section class="area-principal">
+						<span id="mensagem-erro"></span>
+
+						<textarea type="text" id="texto" cols = "40" rows="15" placeholder="Digite seu texto"required wrap="hard" autofocus></textarea>
+
+						<p class="aviso"><span id="img-aviso">&#9888</span> Apenas letras minúsculas e sem acento.</p>
+						
+						<div class="div-buttons">
+							<input type="submit" value = "Criptografar" class="button" id="button-cripto">
+							<input type="submit" value = "Descriptografar" class="button" id="button-decripto">
+							<input type="submit" value="Apagar" class="button" id="button-reload">
+						</div>
+
+				</section>
+
+
+				<section class="display">
+					<textarea type="text" id="texto-criptografado" readonly></textarea>
+
+					<div id="div-display">
+						<img id="ponto-interrogacao" src="img/ponto.png" alt = "pessoa pequena sentada em ponto de interrogacão">
+						<span id="nenhuma-mensagem"></span>
+						<p id="paragrafo-display">Digite um texto que você deseja criptografar ou descriptografar</p>
+					</div>
+
+					<input type="submit" value="Copia" id="button-copia">
+
+				</section>		
+					
+			</form>
+
+		</main>
+
+
+		<footer class = "footer">
+
+			<p>&copy; Desenvolvido por Mariavittoria d'Esposito - 2022 </p>
+
+		</footer>
+
+		
+
+	<!--Importação dos Javascripts AQUI -->
+
+	<script src="js/codificador.js"></script>
+	<script src="js/decodificador.js"></script>
+	<script src="js/area_display.js"></script>
+	<script src="js/copia.js"></script>
+	<script src="js/apagar.js"></script>
+	<script src="js/mensagem_erro.js"></script>
+	
+
+	</body>

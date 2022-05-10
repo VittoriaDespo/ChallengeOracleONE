@@ -1,0 +1,63 @@
+@media screen and (max-width: 480px){
+
+	body {
+		align-items: center;
+		min-height: 500px;
+		width: 520px;
+		
+	}
+
+	.titulo-principal {
+		font-size: 28px;
+	}
+
+	.area-texto {
+		height: 400px;
+	}
+
+	#texto {
+		background: linear-gradient(178deg, #ebf0f2, #b3c9d2);
+		font-size: 20px;
+	}
+
+	.div-buttons {
+		margin: 0 1em;
+	}
+
+	.button {
+		width: 50%;
+		font-size: 15px;
+	}
+
+	.display {
+		min-width: 90%;
+		margin: 1em;
+		max-height: 300px;
+	}
+
+	#ponto-interrogacao {
+		width: 50px;
+	}
+
+ 	#paragrafo-display{
+ 		font-size: 15px;
+ 	}
+
+ 	.msg {
+ 		font-size: 20px;
+ 	}
+
+ 	#texto-criptografado{
+ 		background: linear-gradient(178deg, #9fbbc6, #86aab8);
+ 		font-size: 20px;
+ 		height: 300px;
+ 	}
+
+ 	#button-copia {
+ 		font-size: 15px;
+ 	}
+
+
+}
+
+
