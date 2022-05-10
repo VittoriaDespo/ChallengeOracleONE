@@ -11,6 +11,7 @@
 		font-size: 30px;
 	}
 
+<<<<<<< HEAD
 	form {
 		width: 100%;
 	}
@@ -19,6 +20,11 @@
 		height: 500px;
 		margin-left: 20px;
 
+=======
+	.area-texto {
+		height: 400px;
+		
+>>>>>>> 5f26c12e3f3df980d9000aa2574ab41b7c2ca6cc
 	}
 
 	#texto {
